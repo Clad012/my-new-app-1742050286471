@@ -35,12 +35,16 @@ export default function Home(): JSX.Element {
     >
       <div className="min-h-screen flex flex-col items-center justify-center p-4">
         <div className="max-w-md w-full bg-card rounded-lg shadow-md p-6">
-          <h1 className="text-2xl font-bold mb-6 text-center">
-            Next.js 14 with Pages Router
-          </h1>
 
-          <p className="mb-6 text-center">
-            This is a minimal example demonstrating a simple page with a button
+            <h1 className="text-2xl font-bold mb-6 text-center">
+              Next.js 14 with Pages Router Car Rental
+            </h1>
+
+            <p className="mb-6 text-center">
+              This is a minimal example demonstrating a car rental landing page.
+              Go to <a href="/cars" className="text-blue-500 hover:underline">/cars</a> to see the car rental page.
+            </p>
+
             that calls an API endpoint.
           </p>
 
